@@ -28,11 +28,12 @@ class Emojies extends Component {
 
     return (
       <div className="emoji">
+      <h1 className="heading">Emoji Search</h1>
        	<input className="inpsty" type="text" name="searchInput" onChange={this.inOnChange} value={this.state.inputVal}/>
-      	<ul>
+      	<ul className="space">
 	        {
 	          libraries.slice(0, 20).map(function(libraries, index){
-	            return <li className="lists" type="square" key={index}> {libraries.title} - {libraries.symbol}</li>;
+	            return <li className="lists" type="square" key={index}> {libraries.symbol} {libraries.title}</li>;
 	          })
 	        }
         </ul>
