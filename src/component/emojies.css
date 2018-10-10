@@ -1,0 +1,14 @@
+.lists{
+    list-style-type: none;
+    font-size: 23px;
+    padding-bottom: 10px;
+    color: blueviolet;
+}
+.inpsty{
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 40px;
+    width: 500px;
+    border:2px solid darkblue;
+    font-size: 23px;    
+}
