@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import data from './emojiList.json'
 import './emojies.css'
+import cat1 from '../images/cat2.png'
+import cat2 from '../images/cat.jpeg'
+
+
+
 class Emojies extends Component {
   constructor(props){
 		super()
@@ -10,11 +15,13 @@ class Emojies extends Component {
 		}
   }
   
+  //this function is for targeting input value while doing this people were able
+  //to write in input because input is control input
 	inOnChange=(e)=>{
     this.setState({inputVal:e.target.value});
-    console.log("hello")
   }
   
+  //filtering API
   render=()=>{
     var libraries,
     libraries = data,
@@ -25,18 +32,23 @@ class Emojies extends Component {
         });
     }
   
-
+//rendering all html tags and used map function for taking a new array function
     return (
       <div className="emoji">
-      <h1 className="heading">Emoji Search</h1>
-       	<input className="inpsty" type="text" name="searchInput" onChange={this.inOnChange} value={this.state.inputVal}/>
-      	<ul className="space">
-	        {
+      <div>
+        <h1 className="heading"><img src={cat1} className="setheadEmoji"/> Emoji Search <img src={cat2} className="setheadEmoji"/></h1>
+      </div>
+      <div className="searchDiv">
+         <input className="inpsty" type="text" name="searchInput" onChange={this.inOnChange} value={this.state.inputVal}/>
+	    </div>
+          {
 	          libraries.slice(0, 20).map(function(libraries, index){
-	            return <li className="lists" type="square" key={index}> {libraries.symbol} {libraries.title}</li>;
+	            return <div key={index} className="lists">
+                  <span className="symbols">{libraries.symbol}</span>
+                  <span className="title">{libraries.title}</span>
+                </div>;
 	          })
 	        }
-        </ul>
       </div>
     );
   }
