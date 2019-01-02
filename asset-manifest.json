@@ -1,14 +1,14 @@
 {
-  "main.css": "/emojiSearchEngine/static/css/main.154e1c6f.chunk.css",
-  "main.js": "/emojiSearchEngine/static/js/main.2317f954.chunk.js",
-  "main.js.map": "/emojiSearchEngine/static/js/main.2317f954.chunk.js.map",
-  "static/js/1.3f7e399d.chunk.js": "/emojiSearchEngine/static/js/1.3f7e399d.chunk.js",
-  "static/js/1.3f7e399d.chunk.js.map": "/emojiSearchEngine/static/js/1.3f7e399d.chunk.js.map",
-  "runtime~main.js": "/emojiSearchEngine/static/js/runtime~main.ba4a92aa.js",
-  "runtime~main.js.map": "/emojiSearchEngine/static/js/runtime~main.ba4a92aa.js.map",
-  "static/media/logo.svg": "/emojiSearchEngine/static/media/logo.5d5d9eef.svg",
-  "static/css/main.154e1c6f.chunk.css.map": "/emojiSearchEngine/static/css/main.154e1c6f.chunk.css.map",
-  "index.html": "/emojiSearchEngine/index.html",
-  "precache-manifest.736736615b1c63e295198dadad1a83f3.js": "/emojiSearchEngine/precache-manifest.736736615b1c63e295198dadad1a83f3.js",
-  "service-worker.js": "/emojiSearchEngine/service-worker.js"
+  "main.css": "/filter_emojies_API/static/css/main.154e1c6f.chunk.css",
+  "main.js": "/filter_emojies_API/static/js/main.2317f954.chunk.js",
+  "main.js.map": "/filter_emojies_API/static/js/main.2317f954.chunk.js.map",
+  "static/js/1.3f7e399d.chunk.js": "/filter_emojies_API/static/js/1.3f7e399d.chunk.js",
+  "static/js/1.3f7e399d.chunk.js.map": "/filter_emojies_API/static/js/1.3f7e399d.chunk.js.map",
+  "runtime~main.js": "/filter_emojies_API/static/js/runtime~main.eb467657.js",
+  "runtime~main.js.map": "/filter_emojies_API/static/js/runtime~main.eb467657.js.map",
+  "static/media/logo.svg": "/filter_emojies_API/static/media/logo.5d5d9eef.svg",
+  "static/css/main.154e1c6f.chunk.css.map": "/filter_emojies_API/static/css/main.154e1c6f.chunk.css.map",
+  "index.html": "/filter_emojies_API/index.html",
+  "precache-manifest.a302bc857ab3119a7af56d08e628cfa8.js": "/filter_emojies_API/precache-manifest.a302bc857ab3119a7af56d08e628cfa8.js",
+  "service-worker.js": "/filter_emojies_API/service-worker.js"
 }
