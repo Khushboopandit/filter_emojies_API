@@ -2,7 +2,7 @@
   "name": "cuteemoji",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gitname.github.io/emojiSearchEngine",
+  "homepage": "http://Khushboopandit.github.io/emojiSearchEngine",
   "dependencies": {
     "dev": "^0.1.3",
     "gh-pages": "^2.0.1",
